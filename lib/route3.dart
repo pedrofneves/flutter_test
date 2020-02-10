@@ -56,7 +56,7 @@ class SecondHome extends StatelessWidget {
 
 class SlideRightRoute extends PageRouteBuilder {
   final Widget widget;
-  AppSlideRightRoute({this.widget})
+  SlideRightRoute({this.widget})
       : super(
     pageBuilder: (BuildContext context, Animation<double> animation,
         Animation<double> secondaryAnimation) {
